@@ -16,7 +16,12 @@ This line chart shows the count of kickstarters on the y-axis and the months on 
 
 
 #### Outcomes Based on Goals
-I created another sheet to hold a table with ascending ranges of campaigns goals as rows, and the count and percentages of the number of successful, canceled, and failed projects. Here is where I ran into a little challenge of using the "=COUNTIFS()" function. It was just a little tedious because I couldn't apply the same function to all the rows, I had to edit the function for row in the columns, Number Successful, Number Failed, and Number Canceled. I then created a Total Projects column using the "=SUM()" function, and used that to calculate percentages. Below is an image that represents the data gathered here.
+I created another sheet to hold a table with ascending ranges of campaigns goals as rows, and the count and percentages of the number of successful, canceled, and failed projects, filtered by the subcategory "plays". Here is where I ran into a little challenge of using the "=COUNTIFS()" function. It was just a little tedious because I couldn't apply the same function to all the rows, I had to edit the function for row in the columns, Number Successful, Number Failed, and Number Canceled. I then created a Total Projects column using the "=SUM()" function, and used that to calculate percentages. Below is an image that represents the data gathered here.
+![OutcomesBasedonGoals](Outcomes_vs_Goals.png)
+
+In this line chart, the y-axis represents percentages, and the x-axis represents the ranges of goals selected. The blue line is the percent of successful campaigns, while the green line is the percent of failed campaigns. There is no third line because there weren't any canceled plays. As we can see from this chart, the most successful campaigns were either <1000 to ~5000, and the 35000 to 45000 range. 
+
+## Results
 
 
 
