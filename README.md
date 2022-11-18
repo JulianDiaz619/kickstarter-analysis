@@ -8,4 +8,4 @@
 ## Analysis and Challenges
   To start my analysis, I created a pivot table on a seperate sheet titled "Theater Outcomes by Launch Date" that had months as rows, and the outcomes(successful, failed, canceled) as the columns. I then filtered it by the Parent Category set to theater so we can specifically see how well the theater campaigns performed based on the month that the kickstarter was launched. Below is an image that represents the Pivot Table.
  
- ![TheaterOutcomesbyLaunchDate]()
+ ![TheaterOutcomesbyLaunchDate](Theater_Outcomes_vs_Launch.png)
