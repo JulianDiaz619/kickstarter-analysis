@@ -8,4 +8,9 @@
 ## Analysis and Challenges
   To start my analysis, I created a pivot table on a seperate sheet titled "Theater Outcomes by Launch Date" that had months as rows, and the outcomes(successful, failed, canceled) as the columns. I then filtered it by the Parent Category set to theater so we can specifically see how well the theater campaigns performed based on the month that the kickstarter was launched. Below is an image that represents the Pivot Table.
  
- ![TheaterOutcomesbyLaunchDate](Theater_Outcomes_vs_Launch.png)
+![TheaterOutcomesbyLaunchDate](Theater_Outcomes_vs_Launch.png)
+
+This line chart shows the count of kickstarters on the y-axis and the months on the x-axis. As we can see, in May there is a spike of successful kickstarter campaigns that slowly declines. This may point to advising our client to start their kickstarter in May, or in the summer. From September to November, there is a mini spike of failed kickstarters, while the the amount of successful kickstarters declines. We can advise our client to avoid starting a kickstarter in autumn and winter due to a possible chance that it is less likely to succeed when compared to the great odds of starting a successful campaign at the beginning of summer. 
+
+
+
