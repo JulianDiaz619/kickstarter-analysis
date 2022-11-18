@@ -19,9 +19,21 @@ This line chart shows the count of kickstarters on the y-axis and the months on 
 I created another sheet to hold a table with ascending ranges of campaigns goals as rows, and the count and percentages of the number of successful, canceled, and failed projects, filtered by the subcategory "plays". Here is where I ran into a little challenge of using the "=COUNTIFS()" function. It was just a little tedious because I couldn't apply the same function to all the rows, I had to edit the function for row in the columns, Number Successful, Number Failed, and Number Canceled. I then created a Total Projects column using the "=SUM()" function, and used that to calculate percentages. Below is an image that represents the data gathered here.
 ![OutcomesBasedonGoals](Outcomes_vs_Goals.png)
 
-In this line chart, the y-axis represents percentages, and the x-axis represents the ranges of goals selected. The blue line is the percent of successful campaigns, while the green line is the percent of failed campaigns. There is no third line because there weren't any canceled plays. As we can see from this chart, the most successful campaigns were either <1000 to ~5000, and the 35000 to 45000 range. 
+In this line chart, the y-axis represents percentages, and the x-axis represents the ranges of goals selected. The blue line is the percent of successful campaigns, while the green line is the percent of failed campaigns. There is no third line because there weren't any canceled plays. As we can see from this chart, the most successful campaigns were <1000 to ~5000.
 
 ## Results
+#### Theater Outcomes by Launch Date conclusions
+The "Theater Outcomes by Launch Date" chart shows us that the best time to start theater campaign would be the start of summer, or May/June. This chart also shows us that the worst time to start a theater campaign would be in December, or Autumn, as the amount failed spikes around that time. 
+
+#### Outcomes Based on Goals conclusions
+The "Outcomes Based on Goals" chart shows us that the most ranges with the most success would be <1000 to 4000 or 5000. There is a total of 703 campaigns in those ranges that had a 70%~ success rate. Although it seems that the 35000-45000 range was also fairly successful, there were only a total of 9 campaigns. It seems that as the goal amount rises, the general trend is that the percentage of success drops.
+
+#### Limitations of the Dataset
+Some limitations of this data is just the fact that we don't know how these campaigns look at all. Their marketing could look completely different which could be a huge factor in seeing why some campaigns are successful and some aren't. Some of the campaigns could be very poorly visually presented in kickstarter, while others look amazing. Whatever the case may be, this data does not show that. 
+
+#### Possible tables and charts
+In this analysis, I used the Parent Category filter to only show us "theater outcomes based on launch date". To do more specific analysis, I could also filter by subcategory to make a "play outcomes based on launch date" chart.
+
 
 
 
