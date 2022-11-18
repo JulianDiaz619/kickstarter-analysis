@@ -1,3 +1,5 @@
 # Kickstarter Analysis
+
+
 ## Overview of Project
-Performing analysis on Kickstarter data to uncover trends
+  The purpose of this analysis was to reveal the outcomes of several kickstarter campaigns based on their monetary goals and what date the campaign was launched.
